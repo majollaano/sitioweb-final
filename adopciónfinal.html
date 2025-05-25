@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Huellitas al Rescate</title>
+  <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #ffffff;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: rgba(255, 228, 225, 0.95);
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-family: 'Handlee', cursive;
+      font-size: 3.5em;
+      color: #444;
+      background-color: rgba(255, 228, 225, 0.95);
+      display: inline-block;
+      padding: 10px 20px;
+      border-radius: 10px;
+      text-align: center;
+    }
+    main {
+      background-color: rgba(255,255,255,0.9);
+      padding: 20px;
+    }
+    section {
+      margin-bottom: 30px;
+    }
+    h2 {
+      color: #d88c9a;
+    }
+    .card {
+      background: #fff0f5;
+      border-radius: 15px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      padding: 15px;
+      margin: 10px;
+      width: 280px;
+      display: inline-block;
+      vertical-align: top;
+    }
+    .card img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    form {
+      background-color: #fffaf0;
+      border-radius: 15px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      padding: 20px;
+    }
+    input, select, textarea, button {
+      width: 100%;
+      margin: 10px 0;
+      padding: 10px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+    }
+    button {
+      background-color: #fff9c4;
+      color: #000;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    #confirmacion {
+      display: none;
+      background-color: #fbe4d5;
+      color: #333;
+      margin-top: 20px;
+      padding: 10px;
+      text-align: center;
+      border-radius: 10px;
+      border: 2px solid #e1b7a7;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body style="background-image: url('https://sdmntprcentralus.oaiusercontent.com/files/00000000-a174-61f5-87a7-47a9f8d21667/raw?se=2025-05-25T06%3A01%3A01Z&sp=r&sv=2024-08-04&sr=b&scid=94771c47-81c0-5ee3-b07f-53d7b2d01084&skoid=24a7dec3-38fc-4904-b888-8abe0855c442&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-05-25T00%3A39%3A54Z&ske=2025-05-26T00%3A39%3A54Z&sks=b&skv=2024-08-04&sig=dKBI1eAc3f/RLAWOoZwEK6Sw7sqHqjoWrCfUNK7bCdE%3D'); background-size: cover; background-repeat: repeat;'>
+  <header style="background-color: #ffe4e1; text-align: center; padding: 20px;">
+  <h1 style="font-family: 'Handlee', cursive; font-size: 3.5em; color: #d6336c; padding: 15px 30px; border-radius: 15px; background-color: #f5e3d5; margin: 0 auto; display: block; text-align: center; width: fit-content;">Huellitas al Rescate</h1>
+  <img src="https://sdmntprsouthcentralus.oaiusercontent.com/files/00000000-e73c-61f7-abfc-168b8a511ba0/raw?se=2025-05-25T06%3A01%3A01Z&sp=r&sv=2024-08-04&sr=b&scid=767aaf40-3cf1-5f4a-b97b-4de52426e10b&skoid=24a7dec3-38fc-4904-b888-8abe0855c442&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-05-24T11%3A03%3A06Z&ske=2025-05-25T11%3A03%3A06Z&sks=b&skv=2024-08-04&sig=5RjRrA01Wx/ex/oFA1CkzCUyH%2BEfZnA5PynIRBINJEY%3D" alt="Logo" style="max-width: 140px; display: block; margin: 15px auto 0;">
+  </header>
+  <main>
+    <section>
+      <h2>¿Quiénes somos?</h2>
+      <p>Somos un centro de rescate y adopción de animales abandonados, especialmente de perros y gatos, dedicados a ofrecerles una segunda oportunidad. Nos enfocamos en su rehabilitación y adopción segura.</p>
+      <h2>Misión</h2>
+      <p>Buscamos lograr que cada mascota tenga un hogar seguro y lleno de amor, promoviendo la responsabilidad y el cuidado hacia los animalejos.</p>
+      <h2>Visión</h2>
+      <p>Ser una organización ejemplar sobre el bienestar animal y la conexión entre las personas y las mascotas rescatadas.</p>
+      <h2>Valores</h2>
+      <ul>
+        <li>Amor por los animales</li>
+        <li>Responsabilidad</li>
+        <li>Compromiso social</li>
+        <li>Empatía</li>
+        <li>Solidaridad</li>
+      
+      <img src="https://sdmntprwestus2.oaiusercontent.com/files/00000000-08a0-61f8-affd-2ebf3dac1549/raw?se=2025-05-25T06%3A01%3A01Z&sp=r&sv=2024-08-04&sr=b&scid=038ff15f-c936-5e34-b3cc-cba7103c843e&skoid=24a7dec3-38fc-4904-b888-8abe0855c442&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-05-25T00%3A41%3A16Z&ske=2025-05-26T00%3A41%3A16Z&sks=b&skv=2024-08-04&sig=MH0uso5OIKi2p19T%2BNJjUmgl6y00LDxSbEH9QEMQ8KQ%3D" alt="Portada" style="width: 100%; height: auto; border-radius: 15px; margin: 20px 0;">
+      
+
+    <section>
+      <h2>Mascotas en adopción</h2>
+      <div class="card">
+        <img src="https://sdmntprwestus2.oaiusercontent.com/files/00000000-e840-61f8-9138-64956741c25e/raw?se=2025-05-25T06%3A27%3A54Z&sp=r&sv=2024-08-04&sr=b&scid=031b0782-aada-5b80-9ebe-26ebf4c1b0a8&skoid=c953efd6-2ae8-41b4-a6d6-34b1475ac07c&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-05-25T00%3A22%3A48Z&ske=2025-05-26T00%3A22%3A48Z&sks=b&skv=2024-08-04&sig=CWa5ZrF9Q005Is87stXZFD4h1vr0GPo0qbHl5HS%2BdQQ%3D" alt="Milo" style="width: 105%; height: auto;">
+        <h3 style="font-family: 'Handlee', cursive;">Milo</h3>
+        <span style="font-size: 0.8em; display: block;">♂</span>
+        <p>Edad: 2 años<br>Raza: Golden Retriever<br>Vacunado: Sí<br>Esterilizado: Sí</p>
+        <button onclick="seleccionarMascota('Milo')">Quiero Adoptar</button>
+      </div>
+      <div class="card">
+        <img src="https://sdmntprsouthcentralus.oaiusercontent.com/files/00000000-63b0-61f7-ad31-59339f2bc38e/raw?se=2025-05-25T05%3A34%3A42Z&sp=r&sv=2024-08-04&sr=b&scid=ecc56017-0729-5b5d-b3ef-29a187babb0a&skoid=24a7dec3-38fc-4904-b888-8abe0855c442&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-05-25T00%3A41%3A14Z&ske=2025-05-26T00%3A41%3A14Z&sks=b&skv=2024-08-04&sig=3BiPzQUh7WMpNXQ0%2B7kParmQYhgbmDA1V8bOChWkuv8%3D" alt="Rocky">
+        <h3 style="font-family: 'Handlee', cursive;">Rocky</h3>
+        <span style="font-size: 0.8em; display: block;">♂</span>
+        <p>Edad: 3 años<br>Raza: Gato Bengalí<br>Vacunado: Sí<br>Esterilizado: Sí</p>
+        <button onclick="seleccionarMascota('Rocky')">Quiero Adoptar</button>
+      </div>
+      <div class="card">
+        <img src="https://sdmntprwestus3.oaiusercontent.com/files/00000000-1e5c-61fd-b05f-b5bf8d9160b8/raw?se=2025-05-25T05%3A35%3A56Z&sp=r&sv=2024-08-04&sr=b&scid=54de2d6a-4559-5112-bf1a-0e5e7a303d29&skoid=24a7dec3-38fc-4904-b888-8abe0855c442&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-05-25T00%3A32%3A39Z&ske=2025-05-26T00%3A32%3A39Z&sks=b&skv=2024-08-04&sig=ALifjEvybojC9CeWhpZAmLPnPwFSnV%2Bn51RYxgNcL8o%3D" alt="Luna">
+        <h3 style="font-family: 'Handlee', cursive;">Luna</h3>
+        <span style="font-size: 0.8em; display: block;">♀</span>
+        <p>Edad: 1 año<br>Raza: Beagle<br>Vacunado: Sí<br>Esterilizado: No</p>
+        <button onclick="seleccionarMascota('Luna')">Quiero Adoptar</button>
+      </div>
+      <div class="card">
+        <img src="https://sdmntprwestus3.oaiusercontent.com/files/00000000-2f5c-61fd-b134-9923050a4441/raw?se=2025-05-25T05%3A37%3A19Z&sp=r&sv=2024-08-04&sr=b&scid=10b44d27-3bcc-5436-92d6-a27ba329647b&skoid=24a7dec3-38fc-4904-b888-8abe0855c442&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-05-25T00%3A41%3A14Z&ske=2025-05-26T00%3A41%3A14Z&sks=b&skv=2024-08-04&sig=j6XIiHkby9daTty%2BuWjnPFJzM0Kz2Su1/evuWyhoLbM%3D" alt="Nina">
+        <h3 style="font-family: 'Handlee', cursive;">Nina</h3>
+        <span style="font-size: 0.8em; display: block;">♀</span>
+        <p>Edad: 2 años<br>Raza: Gato Persa<br>Vacunado: No<br>Esterilizado: Sí</p>
+        <button onclick="seleccionarMascota('Nina')">Quiero Adoptar</button>
+      </div>
+      <div class="card">
+        <img src="https://sdmntprwestus2.oaiusercontent.com/files/00000000-acf4-61f8-98a8-1eeb4cd8fb23/raw?se=2025-05-25T05%3A38%3A37Z&sp=r&sv=2024-08-04&sr=b&scid=e8995db3-d7bc-5888-ae92-2cf2d7ab0151&skoid=24a7dec3-38fc-4904-b888-8abe0855c442&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-05-25T00%3A41%3A55Z&ske=2025-05-26T00%3A41%3A55Z&sks=b&skv=2024-08-04&sig=2wAFLYhpC55TSQsF6CLSmKRvufJ2HXXlKyyq8FGnS34%3D" alt="Tommy">
+        <h3 style="font-family: 'Handlee', cursive;">Tommy</h3>
+        <span style="font-size: 0.8em; display: block;">♂</span>
+        <p>Edad: 4 años<br>Raza: Labrador<br>Vacunado: Sí<br>Esterilizado: Sí</p>
+        <button onclick="seleccionarMascota('Tommy')">Quiero Adoptar</button>
+      </div>
+      <div class="card">
+        <img src="https://sdmntprsouthcentralus.oaiusercontent.com/files/00000000-d00c-61f7-8a7f-d238466e4cf2/raw?se=2025-05-25T05%3A44%3A15Z&sp=r&sv=2024-08-04&sr=b&scid=e0447c5c-8edd-5665-80e0-9166102d2975&skoid=24a7dec3-38fc-4904-b888-8abe0855c442&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-05-25T00%3A39%3A51Z&ske=2025-05-26T00%3A39%3A51Z&sks=b&skv=2024-08-04&sig=O1FeAUeUvvLaKMmhlZ2bT0bLIQQZAoMZBZfGey/PJZs%3D" alt="Maya">
+        <h3 style="font-family: 'Handlee', cursive;">Maya</h3>
+        <span style="font-size: 0.8em; display: block;">♀</span>
+        <p>Edad: 2 años<br>Raza: Gato Siamés<br>Vacunado: No<br>Esterilizado: No</p>
+        <button onclick="seleccionarMascota('Maya')">Quiero Adoptar</button>
+      </div>
+    </section>
+
+    <section>
+      <h2>Formulario de adopción</h2>
+      <form id="formulario">
+        <input type="text" name="nombre" placeholder="Nombre completo" required>
+        <input type="tel" name="telefono" placeholder="Teléfono" required>
+        <input type="email" name="correo" placeholder="Correo electrónico" required>
+        <select id="mascota-select" name="mascota" required>
+          <option value="">Nombre de la mascota</option>
+          <option value="Milo">Milo</option>
+          <option value="Luna">Luna</option>
+          <option value="Rocky">Rocky</option>
+          <option value="Nina">Nina</option>
+          <option value="Tommy">Tommy</option>
+          <option value="Maya">Maya</option>
+        </select>
+        <select name="otras_mascotas" required>
+          <option value="">¿Tienes otras mascotas?</option>
+          <option value="Sí">Sí</option>
+          <option value="No">No</option>
+        </select>
+        <select name="espacio" required>
+          <option value="">Espacio donde vivirá</option>
+          <option value="Casa con patio">Casa con patio</option>
+          <option value="Departamento">Departamento</option>
+          <option value="Otro">Otro</option>
+        </select>
+        <textarea name="motivo" placeholder="¿Por qué quieres adoptar?" required></textarea>
+        <button type="submit">Enviar solicitud</button>
+        <div id="confirmacion">
+          🐾 ¡Gracias por tu interés en adoptar!<br>📧 Pronto nos pondremos en contacto contigo.
+        </div>
+      </form>
+    </section>
+  </main>
+  <script>
+    function seleccionarMascota(nombre) {
+      const select = document.getElementById('mascota-select');
+      if (select) {
+        select.value = nombre;
+        select.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+
+    document.getElementById('formulario').addEventListener('submit', function(e) {
+      e.preventDefault();
+      console.log('Formulario enviado');
+      const confirmacion = document.getElementById('confirmacion');
+      confirmacion.style.display = 'block';
+      setTimeout(() => {
+        confirmacion.style.display = 'none';
+        document.getElementById('formulario').reset();
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      }, 5000);
+    });
+  </script>
+</body>
+</html>
